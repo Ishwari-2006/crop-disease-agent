@@ -1,0 +1,358 @@
+{
+  "Apple scab": {
+    "organic": [
+      "Apply neem oil spray every 7-10 days",
+      "Use sulfur-based fungicide before infection period",
+      "Remove and destroy all fallen infected leaves"
+    ],
+    "chemical": [
+      "Apply Captan fungicide at bud break",
+      "Use Myclobutanil (Rally) during growing season",
+      "Spray Mancozeb every 7 days in wet conditions"
+    ],
+    "prevention": "Plant resistant apple varieties, ensure good air circulation by pruning"
+  },
+  "Apple Black rot": {
+    "organic": [
+      "Prune and destroy all infected branches and mummified fruit",
+      "Apply copper-based fungicide at bud break",
+      "Remove dead bark and cankers from trees"
+    ],
+    "chemical": [
+      "Apply Captan or Thiram fungicide during growing season",
+      "Use Myclobutanil for systemic protection",
+      "Spray Ziram at petal fall stage"
+    ],
+    "prevention": "Remove mummified fruit, prune dead wood, avoid wounding trees"
+  },
+  "Cedar apple rust": {
+    "organic": [
+      "Apply sulfur-based fungicide before infection period",
+      "Remove nearby juniper or cedar trees if possible",
+      "Use copper spray at early leaf stage"
+    ],
+    "chemical": [
+      "Apply Myclobutanil (Rally) from pink bud through cover",
+      "Use Propiconazole (Banner Maxx) for systemic control",
+      "Spray Mancozeb as protective treatment"
+    ],
+    "prevention": "Plant rust-resistant apple varieties, remove nearby juniper hosts"
+  },
+  "Blueberry healthy": {
+    "organic": [
+      "Continue regular compost application",
+      "Use neem oil as preventive spray monthly",
+      "Maintain proper watering schedule"
+    ],
+    "chemical": [],
+    "prevention": "Regular monitoring, balanced fertilization, proper plant spacing"
+  },
+  "Cherry Powdery mildew": {
+    "organic": [
+      "Spray diluted baking soda solution (1 tbsp per litre water)",
+      "Apply potassium bicarbonate spray weekly",
+      "Use neem oil every 7 days as preventive"
+    ],
+    "chemical": [
+      "Apply Myclobutanil (Eagle) at first sign of disease",
+      "Use Trifloxystrobin (Flint) for long-lasting protection",
+      "Spray Tebuconazole every 14 days"
+    ],
+    "prevention": "Avoid overhead irrigation, improve air circulation by pruning"
+  },
+  "Cercospora leaf spot Gray leaf spot": {
+    "organic": [
+      "Apply copper hydroxide spray at early infection",
+      "Remove and destroy heavily infected leaves",
+      "Ensure wide plant spacing for airflow"
+    ],
+    "chemical": [
+      "Apply Propiconazole (Tilt) at tasseling stage",
+      "Use Azoxystrobin + Propiconazole (Quilt) mixture",
+      "Spray Pyraclostrobin (Headline) for best control"
+    ],
+    "prevention": "Plant resistant corn hybrids, rotate crops annually, till crop debris"
+  },
+  "Common rust": {
+    "organic": [
+      "Apply sulfur-based fungicide at first sign",
+      "Remove heavily infected leaves to slow spread",
+      "Ensure good air circulation between plants"
+    ],
+    "chemical": [
+      "Apply Propiconazole (Tilt) at early infection",
+      "Use Azoxystrobin (Quadris) for systemic protection",
+      "Spray Mancozeb as protective treatment in wet weather"
+    ],
+    "prevention": "Plant rust-resistant corn varieties, avoid late planting"
+  },
+  "Northern Leaf Blight": {
+    "organic": [
+      "Apply copper hydroxide spray at early infection",
+      "Remove heavily infected leaves promptly",
+      "Ensure proper plant spacing for good airflow"
+    ],
+    "chemical": [
+      "Apply Propiconazole (Tilt) at tasseling stage",
+      "Use Azoxystrobin + Propiconazole (Quilt) mixture",
+      "Spray Pyraclostrobin (Headline) for best control"
+    ],
+    "prevention": "Plant resistant corn hybrids, rotate crops annually"
+  },
+  "Grape Black rot": {
+    "organic": [
+      "Apply copper-based fungicide before bloom",
+      "Remove and destroy mummified berries and infected leaves",
+      "Improve canopy air circulation by pruning"
+    ],
+    "chemical": [
+      "Apply Myclobutanil (Rally) from early shoot growth",
+      "Use Mancozeb as protective spray every 7-10 days",
+      "Spray Captan after bloom for fruit protection"
+    ],
+    "prevention": "Remove mummified fruit, prune for airflow, avoid overhead irrigation"
+  },
+  "Esca (Black Measles)": {
+    "organic": [
+      "Prune infected wood back to healthy tissue",
+      "Seal pruning wounds immediately with wound sealant",
+      "Remove and destroy severely infected vines"
+    ],
+    "chemical": [
+      "Apply sodium arsenite to cut surfaces (where permitted)",
+      "Use thiophanate-methyl as pruning wound protectant",
+      "Treat with Flusilazole for foliar symptoms"
+    ],
+    "prevention": "Prune in dry weather, protect wounds immediately, use clean tools"
+  },
+  "Leaf blight (Isariopsis Leaf Spot)": {
+    "organic": [
+      "Apply copper-based fungicide at first sign",
+      "Remove and destroy infected leaves",
+      "Improve air circulation through canopy management"
+    ],
+    "chemical": [
+      "Apply Mancozeb every 10-14 days",
+      "Use Myclobutanil for systemic control",
+      "Spray Iprodione at early infection stage"
+    ],
+    "prevention": "Avoid overhead irrigation, remove infected plant debris after harvest"
+  },
+  "Haunglongbing (Citrus greening)": {
+    "organic": [
+      "Remove and destroy infected trees immediately",
+      "Use reflective mulch to repel psyllid insects",
+      "Apply kaolin clay spray to deter psyllids"
+    ],
+    "chemical": [
+      "Apply Imidacloprid (Confidor) to control Asian citrus psyllid",
+      "Use Thiamethoxam (Actara) as systemic insecticide",
+      "Spray Dimethoate for psyllid population control"
+    ],
+    "prevention": "Use certified disease-free nursery stock, monitor for psyllids regularly"
+  },
+  "Peach Bacterial spot": {
+    "organic": [
+      "Apply copper-based bactericide at bud swell",
+      "Remove and destroy infected plant material",
+      "Avoid overhead irrigation to reduce leaf wetness"
+    ],
+    "chemical": [
+      "Apply Oxytetracycline (Mycoshield) during bloom",
+      "Use copper hydroxide sprays through growing season",
+      "Spray Kasugamycin for bacterial control"
+    ],
+    "prevention": "Plant resistant peach varieties, avoid sites with frequent rain"
+  },
+  "Pepper Bacterial spot": {
+    "organic": [
+      "Apply copper-based bactericide every 7 days",
+      "Remove infected leaves and plant debris",
+      "Avoid working with plants when wet"
+    ],
+    "chemical": [
+      "Apply copper hydroxide + Mancozeb mixture",
+      "Use Acibenzolar-S-methyl (Actigard) as resistance inducer",
+      "Spray Kasugamycin at early infection"
+    ],
+    "prevention": "Use certified disease-free seeds, rotate crops every 2-3 years"
+  },
+  "Potato Early blight": {
+    "organic": [
+      "Apply neem oil or copper spray weekly",
+      "Mulch around base to prevent soil splash onto leaves",
+      "Remove lower infected leaves immediately"
+    ],
+    "chemical": [
+      "Apply Chlorothalonil every 7-10 days",
+      "Use Azoxystrobin (Quadris) for systemic protection",
+      "Alternate fungicides to prevent resistance"
+    ],
+    "prevention": "Crop rotation every 2-3 years, stake plants for airflow, avoid overhead watering"
+  },
+  "Potato Late blight": {
+    "organic": [
+      "Apply copper-based fungicide immediately at first sign",
+      "Remove and destroy all infected plant parts",
+      "Avoid overhead irrigation \u2014 switch to drip"
+    ],
+    "chemical": [
+      "Apply Chlorothalonil (Daconil) at first sign",
+      "Use Mefenoxam (Ridomil) for soil drenching",
+      "Rotate with Cymoxanil for resistance management"
+    ],
+    "prevention": "Use certified disease-free seed potatoes, hill soil around stems"
+  },
+  "Squash Powdery mildew": {
+    "organic": [
+      "Spray diluted baking soda solution (1 tbsp per litre)",
+      "Apply potassium bicarbonate spray weekly",
+      "Use neem oil every 7 days"
+    ],
+    "chemical": [
+      "Apply Myclobutanil at first sign of disease",
+      "Use Trifloxystrobin for long-lasting protection",
+      "Spray Sulfur fungicide in early morning"
+    ],
+    "prevention": "Plant resistant varieties, avoid overhead watering, improve spacing"
+  },
+  "Strawberry Leaf scorch": {
+    "organic": [
+      "Remove and destroy infected leaves",
+      "Apply copper-based fungicide early in season",
+      "Avoid overhead irrigation"
+    ],
+    "chemical": [
+      "Apply Captan fungicide at first sign",
+      "Use Myclobutanil for systemic control",
+      "Spray Thiram as protective treatment"
+    ],
+    "prevention": "Use certified disease-free plants, renovate beds after harvest"
+  },
+  "Tomato Bacterial spot": {
+    "organic": [
+      "Apply copper-based bactericide every 7 days",
+      "Remove infected leaves and avoid working when wet",
+      "Use drip irrigation instead of overhead"
+    ],
+    "chemical": [
+      "Apply copper hydroxide + Mancozeb mixture",
+      "Use Acibenzolar-S-methyl (Actigard) as resistance inducer",
+      "Spray Kasugamycin at early stages"
+    ],
+    "prevention": "Use certified disease-free seeds, rotate crops every 2-3 years"
+  },
+  "Tomato Early blight": {
+    "organic": [
+      "Apply neem oil or copper spray weekly",
+      "Mulch around base to prevent soil splash",
+      "Remove lower infected leaves immediately"
+    ],
+    "chemical": [
+      "Apply Chlorothalonil every 7-10 days",
+      "Use Azoxystrobin (Quadris) for systemic protection",
+      "Alternate fungicides to prevent resistance"
+    ],
+    "prevention": "Crop rotation every 2-3 years, stake plants for airflow"
+  },
+  "Tomato Late blight": {
+    "organic": [
+      "Apply copper-based fungicide immediately",
+      "Remove and destroy all infected plant parts",
+      "Avoid overhead irrigation \u2014 use drip instead"
+    ],
+    "chemical": [
+      "Apply Chlorothalonil (Daconil) at first sign",
+      "Use Mefenoxam (Ridomil) for soil drenching",
+      "Rotate with Cymoxanil for resistance management"
+    ],
+    "prevention": "Use certified disease-free seeds, avoid wet foliage"
+  },
+  "Leaf Mold": {
+    "organic": [
+      "Improve greenhouse ventilation immediately",
+      "Remove and destroy infected leaves",
+      "Apply copper-based fungicide weekly"
+    ],
+    "chemical": [
+      "Apply Chlorothalonil at first sign",
+      "Use Mancozeb as protective spray",
+      "Spray Iprodione for systemic control"
+    ],
+    "prevention": "Maintain humidity below 85%, ensure good air circulation, avoid wetting leaves"
+  },
+  "Septoria leaf spot": {
+    "organic": [
+      "Remove infected lower leaves immediately",
+      "Apply copper spray every 7-10 days",
+      "Mulch soil to prevent spore splash"
+    ],
+    "chemical": [
+      "Apply Chlorothalonil every 7-10 days",
+      "Use Mancozeb as protective fungicide",
+      "Spray Myclobutanil for systemic control"
+    ],
+    "prevention": "Crop rotation, remove plant debris after season, avoid overhead watering"
+  },
+  "Spider mites Two-spotted spider mite": {
+    "organic": [
+      "Spray plants forcefully with water to dislodge mites",
+      "Apply neem oil or insecticidal soap every 5-7 days",
+      "Introduce predatory mites (Phytoseiulus persimilis)"
+    ],
+    "chemical": [
+      "Apply Abamectin (Agri-Mek) at first sign",
+      "Use Bifenazate (Floramite) for quick knockdown",
+      "Spray Spiromesifen (Oberon) for egg and nymph control"
+    ],
+    "prevention": "Monitor regularly, avoid over-fertilizing with nitrogen, maintain humidity"
+  },
+  "Target Spot": {
+    "organic": [
+      "Remove infected leaves and destroy them",
+      "Apply copper-based fungicide weekly",
+      "Improve air circulation around plants"
+    ],
+    "chemical": [
+      "Apply Chlorothalonil at first sign",
+      "Use Azoxystrobin for systemic protection",
+      "Spray Fluxapyroxad + Pyraclostrobin (Priaxor) for best control"
+    ],
+    "prevention": "Crop rotation, remove plant debris, avoid overhead irrigation"
+  },
+  "Tomato Yellow Leaf Curl Virus": {
+    "organic": [
+      "Use reflective silver mulch to repel whiteflies",
+      "Install yellow sticky traps around plants",
+      "Spray neem oil to reduce whitefly population"
+    ],
+    "chemical": [
+      "Apply Imidacloprid (Confidor) to control whiteflies",
+      "Use Thiamethoxam (Actara) as systemic insecticide",
+      "Spray Spiromesifen (Oberon) for whitefly larvae control"
+    ],
+    "prevention": "Use virus-resistant tomato varieties, remove infected plants immediately"
+  },
+  "Tomato mosaic virus": {
+    "organic": [
+      "Remove and destroy infected plants immediately",
+      "Disinfect tools with bleach solution between plants",
+      "Wash hands thoroughly before handling plants"
+    ],
+    "chemical": [
+      "No chemical cure exists \u2014 focus on prevention",
+      "Control aphid vectors with Imidacloprid",
+      "Apply mineral oil spray to reduce virus transmission"
+    ],
+    "prevention": "Use virus-resistant varieties, certified disease-free seeds, sterilize tools"
+  },
+  "healthy": {
+    "organic": [
+      "Continue regular compost application",
+      "Use neem oil as preventive spray monthly",
+      "Maintain proper watering schedule"
+    ],
+    "chemical": [],
+    "prevention": "Regular monitoring, balanced fertilization, proper plant spacing"
+  }
+}

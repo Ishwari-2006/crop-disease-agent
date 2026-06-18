@@ -1,0 +1,142 @@
+{
+  "Apple scab": {
+    "cause": "Fungal infection caused by Venturia inaequalis",
+    "symptoms": "Dark olive-green spots on leaves, eventually turning brown and scabby, deformed fruits",
+    "severity": "Medium"
+  },
+  "Apple Black rot": {
+    "cause": "Fungal infection by Botryosphaeria obtusa",
+    "symptoms": "Brown circular lesions on leaves, black rotting fruit, cankers on branches",
+    "severity": "High"
+  },
+  "Cedar apple rust": {
+    "cause": "Fungal pathogen Gymnosporangium juniperi-virginianae",
+    "symptoms": "Bright orange-yellow spots on upper leaf surface, tube-like growths underneath",
+    "severity": "Medium"
+  },
+  "Blueberry healthy": {
+    "cause": "No disease detected",
+    "symptoms": "Plant appears healthy with no visible symptoms",
+    "severity": "None"
+  },
+  "Cherry Powdery mildew": {
+    "cause": "Fungal pathogen Podosphaera clandestina",
+    "symptoms": "White powdery coating on young leaves and shoots, distorted growth",
+    "severity": "Medium"
+  },
+  "Cercospora leaf spot Gray leaf spot": {
+    "cause": "Fungal infection by Cercospora zeae-maydis",
+    "symptoms": "Rectangular grey-tan lesions between leaf veins, lesions turn tan with yellow halo",
+    "severity": "High"
+  },
+  "Common rust": {
+    "cause": "Fungal pathogen Puccinia sorghi",
+    "symptoms": "Small oval pustules with powdery reddish-brown spores on both leaf surfaces",
+    "severity": "Medium"
+  },
+  "Northern Leaf Blight": {
+    "cause": "Fungal infection by Exserohilum turcicum",
+    "symptoms": "Long greyish-green cigar-shaped lesions on corn leaves, tan centres",
+    "severity": "Medium"
+  },
+  "Grape Black rot": {
+    "cause": "Fungal pathogen Guignardia bidwellii",
+    "symptoms": "Brown circular leaf lesions with black border, shrivelled black mummified fruit",
+    "severity": "High"
+  },
+  "Esca (Black Measles)": {
+    "cause": "Complex of fungal pathogens including Phaeomoniella chlamydospora",
+    "symptoms": "Interveinal chlorosis and necrosis on leaves, dark streaking in wood, berry spotting",
+    "severity": "High"
+  },
+  "Leaf blight (Isariopsis Leaf Spot)": {
+    "cause": "Fungal pathogen Isariopsis clavispora",
+    "symptoms": "Dark brown angular lesions on leaves, lesions coalesce causing leaf drop",
+    "severity": "Medium"
+  },
+  "Haunglongbing (Citrus greening)": {
+    "cause": "Bacterial infection by Candidatus Liberibacter, spread by Asian citrus psyllid",
+    "symptoms": "Asymmetric yellowing of leaves, stunted growth, misshapen bitter fruit",
+    "severity": "High"
+  },
+  "Peach Bacterial spot": {
+    "cause": "Bacterial infection by Xanthomonas arboricola pv. pruni",
+    "symptoms": "Small water-soaked spots on leaves turning brown, shot-hole appearance, fruit lesions",
+    "severity": "Medium"
+  },
+  "Pepper Bacterial spot": {
+    "cause": "Bacterial infection by Xanthomonas campestris pv. vesicatoria",
+    "symptoms": "Small water-soaked lesions on leaves, raised scab-like spots on fruit",
+    "severity": "Medium"
+  },
+  "Potato Early blight": {
+    "cause": "Fungal infection by Alternaria solani",
+    "symptoms": "Dark brown spots with concentric rings on lower leaves, yellow halo around spots",
+    "severity": "Medium"
+  },
+  "Potato Late blight": {
+    "cause": "Water mold Phytophthora infestans",
+    "symptoms": "Dark water-soaked lesions on leaves and stems, white mold on underside in humid conditions",
+    "severity": "High"
+  },
+  "Squash Powdery mildew": {
+    "cause": "Fungal pathogens Podosphaera xanthii or Erysiphe cichoracearum",
+    "symptoms": "White powdery spots on leaves and stems, yellowing and premature leaf drop",
+    "severity": "Medium"
+  },
+  "Strawberry Leaf scorch": {
+    "cause": "Fungal infection by Diplocarpon earlianum",
+    "symptoms": "Small dark purple spots on upper leaf surface, centres turn greyish-brown",
+    "severity": "Medium"
+  },
+  "Tomato Bacterial spot": {
+    "cause": "Bacterial infection by Xanthomonas vesicatoria",
+    "symptoms": "Small water-soaked spots on leaves and fruit, spots turn brown with yellow halo",
+    "severity": "Medium"
+  },
+  "Tomato Early blight": {
+    "cause": "Fungal infection by Alternaria solani",
+    "symptoms": "Dark brown spots with concentric target-like rings, starts on older lower leaves",
+    "severity": "Medium"
+  },
+  "Tomato Late blight": {
+    "cause": "Water mold Phytophthora infestans",
+    "symptoms": "Greasy grey-green water-soaked patches on leaves, white mold on undersides",
+    "severity": "High"
+  },
+  "Leaf Mold": {
+    "cause": "Fungal infection by Passalora fulva (formerly Cladosporium fulvum)",
+    "symptoms": "Pale green to yellow spots on upper leaf surface, olive-green mold on underside",
+    "severity": "Medium"
+  },
+  "Septoria leaf spot": {
+    "cause": "Fungal pathogen Septoria lycopersici",
+    "symptoms": "Small circular spots with dark brown border and grey centre, tiny black dots inside spots",
+    "severity": "Medium"
+  },
+  "Spider mites Two-spotted spider mite": {
+    "cause": "Pest infestation by Tetranychus urticae",
+    "symptoms": "Tiny yellow or white speckles on leaves, fine webbing on underside, bronzing of leaves",
+    "severity": "Medium"
+  },
+  "Target Spot": {
+    "cause": "Fungal pathogen Corynespora cassiicola",
+    "symptoms": "Brown circular lesions with concentric rings resembling a target, affects leaves and fruit",
+    "severity": "Medium"
+  },
+  "Tomato Yellow Leaf Curl Virus": {
+    "cause": "Virus transmitted by whitefly Bemisia tabaci",
+    "symptoms": "Yellowing and upward curling of leaves, stunted plant growth, reduced fruit set",
+    "severity": "High"
+  },
+  "Tomato mosaic virus": {
+    "cause": "Tomato mosaic virus (ToMV) spread by contact and contaminated tools",
+    "symptoms": "Mosaic pattern of light and dark green on leaves, distorted fruit, stunted growth",
+    "severity": "Medium"
+  },
+  "healthy": {
+    "cause": "No disease detected",
+    "symptoms": "Plant appears healthy with no visible symptoms",
+    "severity": "None"
+  }
+}
