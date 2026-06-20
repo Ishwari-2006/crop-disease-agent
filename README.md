@@ -10,7 +10,22 @@ An end-to-end AI system that detects plant diseases from leaf photos and deliver
 
 Upload a photo of a diseased leaf → the ML model identifies the disease → an AI agent returns a structured diagnosis with organic and chemical treatment options → you can ask follow-up questions in a chat interface.
 
-**Live demo:** _coming soon_
+**🌐 Live demo: [cropdoctor-9d9f.onrender.com](https://cropdoctor-9d9f.onrender.com)**
+
+> First load may take ~50 seconds if the server has been inactive (free tier).
+---
+
+## Screenshots
+
+### Homepage
+![Homepage](screenshots/homepage.png)
+
+### Diagnosis Result
+![Diagnosis](screenshots/diagnosis.png)
+
+### Chat Interface
+![Chat](screenshots/chat.png)
+
 
 ---
 
@@ -64,13 +79,27 @@ Expert diagnosis report + follow-up Q&A
 
 ```
 crop-disease-agent/
-├── notebooks/
+├── ├── notebooks/
+│   ├── day2_3_image_dataset_exploration.ipynb
+│   ├── day4_data_loader.ipynb
+│   ├── day5_model.ipynb
 │   ├── day6_training_loop.ipynb
 │   ├── day7_accuracy_curves.ipynb
+│   ├── day8_scratch_cnn.ipynb
+│   ├── day9_why_efficientnet.ipynb
 │   ├── day10_data_augmentation.ipynb
 │   ├── day11_finetune.ipynb
 │   ├── day12_confusion_matrix.ipynb
-│   └── day13_inference.ipynb
+│   ├── day13_inference.ipynb
+│   ├── day14_groq_agent_intro.ipynb
+│   ├── day15_treatment_tool.ipynb
+│   ├── day16_model_to_agent.ipynb
+│   ├── day17_expand_disease_data.ipynb
+│   ├── day18_expert_agent.ipynb
+│   ├── day19_agent_memory.ipynb
+│   ├── day20_followup_qa.ipynb
+│   ├── day21_stress_test.ipynb
+│   └── day22_final_agent.ipynb
 ├── agent/
 │   ├── agent.py
 │   ├── disease_data.json
