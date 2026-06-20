@@ -196,3 +196,12 @@ async function sendChat() {
         messages.innerHTML += `<div class="chat-msg-agent">Connection error. Please try again.</div>`;
     }
 }
+function toggleMenu() {
+    const sidebar  = document.querySelector('.sidebar');
+    const overlay  = document.getElementById('overlay');
+    const hamburger = document.getElementById('hamburger');
+
+    sidebar.classList.toggle('open');
+    overlay.classList.toggle('active');
+    hamburger.textContent = sidebar.classList.contains('open') ? '✕' : '☰';
+}
