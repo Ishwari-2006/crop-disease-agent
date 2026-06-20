@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CropDoctor</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div class="app">
+
+        <!-- Sidebar -->
+        <div class="sidebar">
+            <div class="sidebar-logo">
+                <span class="logo-leaf">🌿</span>
+                <span class="logo-text">CropDoctor</span>
+            </div>
+            <div class="sidebar-section">
+                <div class="sidebar-section-title">Farming preference</div>
+                <div class="radio-group">
+                    <label class="radio-label">
+                        <input type="radio" name="farm" value="both" checked> Both
+                    </label>
+                    <label class="radio-label">
+                        <input type="radio" name="farm" value="organic"> Organic
+                    </label>
+                    <label class="radio-label">
+                        <input type="radio" name="farm" value="chemical"> Chemical
+                    </label>
+                </div>
+            </div>
+            <div class="divider"></div>
+            <div class="sidebar-section">
+                <div class="sidebar-section-title">Supported plants</div>
+            </div>
+            <div class="plants-list">
+                <div class="plant-item"><span class="dot" style="background:#e74c3c"></span>Apple</div>
+                <div class="plant-item"><span class="dot" style="background:#8e44ad"></span>Grape</div>
+                <div class="plant-item"><span class="dot" style="background:#e74c3c"></span>Tomato</div>
+                <div class="plant-item"><span class="dot" style="background:#e67e22"></span>Potato</div>
+                <div class="plant-item"><span class="dot" style="background:#f1c40f"></span>Corn</div>
+                <div class="plant-item"><span class="dot" style="background:#e67e22"></span>Peach</div>
+                <div class="plant-item"><span class="dot" style="background:#27ae60"></span>Pepper</div>
+                <div class="plant-item"><span class="dot" style="background:#e74c3c"></span>Strawberry</div>
+                <div class="plant-item"><span class="dot" style="background:#e67e22"></span>Orange</div>
+                <div class="plant-item"><span class="dot" style="background:#3498db"></span>Blueberry</div>
+                <div class="plant-item"><span class="dot" style="background:#c0392b"></span>Cherry</div>
+                <div class="plant-item"><span class="dot" style="background:#27ae60"></span>Soybean</div>
+            </div>
+        </div>
+
+        <!-- Main -->
+        <div class="main">
+            <div class="topbar">
+                <div class="topbar-title">🌱 AI Agricultural Pathologist</div>
+            </div>
+
+            <div class="content">
+                <!-- Hero -->
+                <div class="hero">
+                    <div class="hero-text">
+                        <h1>Detect Crop Diseases<br>Instantly with AI</h1>
+                        <p>Upload a leaf photo and get an expert diagnosis with treatment advice from our AI agricultural pathologist.</p>
+                    </div>
+                    <div class="hero-leaves">🍃</div>
+                </div>
+
+                <!-- Two columns -->
+                <div class="two-col">
+                    <!-- Upload card -->
+                    <div class="card">
+                        <div class="card-header">
+                            <div class="card-header-icon">📷</div>
+                            <span class="card-title">Upload leaf photo</span>
+                        </div>
+
+                        <div class="upload-area" id="uploadArea">
+                            <input type="file" id="fileInput" accept=".jpg,.jpeg,.png" hidden>
+                            <div class="drop-zone" id="dropZone" onclick="document.getElementById('fileInput').click()">
+                                <div class="drop-content" id="dropContent">
+                                    <div class="drop-icon">📷</div>
+                                    <div class="drop-title">Click or drag to upload</div>
+                                    <div class="drop-hint">JPG, PNG supported</div>
+                                    <div style="font-size:11px; color:#7aaa7a; margin-top:8px; text-align:center;">
+                                        💡 Tip: For best results, photograph a single leaf against a plain background
+                                    </div>
+                                </div>
+                                <img id="previewImg" class="preview-img hidden" alt="Preview">
+                            </div>
+                        </div>
+
+                        <button class="analyze-btn" id="analyzeBtn" onclick="analyzeLeaf()" disabled>
+                            🔍 Analyze Leaf
+                        </button>
+                        <button class="cancel-btn" id="cancelBtn" onclick="cancelUpload()" style="display:none;">
+                            ✕ Remove photo
+                        </button>
+                    </div>
+
+                    <!-- Results card -->
+                    <div class="card">
+                        <div class="card-header">
+                            <div class="card-header-icon">📋</div>
+                            <span class="card-title">Diagnosis results</span>
+                        </div>
+
+                        <div id="resultZone">
+                            <div class="result-waiting">
+                                <div class="result-icon">🌿</div>
+                                <div class="result-title">Awaiting Analysis</div>
+                                <div class="result-sub">Upload a leaf photo to get started</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Chat section (hidden until diagnosis) -->
+                <div class="card" id="chatSection" style="display:none">
+                    <div class="card-header">
+                        <div class="card-header-icon">💬</div>
+                        <span class="card-title">Ask our AI Expert</span>
+                    </div>
+                    <div class="chat-messages" id="chatMessages"></div>
+                    <div class="chat-input-row">
+                        <input type="text" id="chatInput"
+                               placeholder="Ask a follow-up question..."
+                               onkeydown="if(event.key==='Enter') sendChat()">
+                        <button class="chat-send-btn" onclick="sendChat()">Send →</button>
+                    </div>
+                </div>
+
+                <!-- Steps row -->
+                <div class="steps-row">
+                    <div class="step-card">
+                        <div class="s-num">01</div>
+                        <div class="s-icon">📷</div>
+                        <div class="s-label">Upload photo</div>
+                    </div>
+                    <div class="step-card">
+                        <div class="s-num">02</div>
+                        <div class="s-icon">🔬</div>
+                        <div class="s-label">AI analysis</div>
+                    </div>
+                    <div class="step-card">
+                        <div class="s-num">03</div>
+                        <div class="s-icon">🩺</div>
+                        <div class="s-label">Get diagnosis</div>
+                    </div>
+                    <div class="step-card">
+                        <div class="s-num">04</div>
+                        <div class="s-icon">💊</div>
+                        <div class="s-label">Treatment plan</div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <script src="/static/app.js"></script>
+</body>
+</html>

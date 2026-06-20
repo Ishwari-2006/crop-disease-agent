@@ -1,0 +1,6 @@
+torch
+torchvision
+flask
+groq
+python-dotenv
+pillow
