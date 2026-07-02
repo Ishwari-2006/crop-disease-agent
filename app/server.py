@@ -238,7 +238,7 @@ def chat():
         )
 
         response = groq_client.chat.completions.create(
-            model="llama-3.3-70b-versatile",
+            model="qwen/qwen3-32b",
             messages=messages,
             max_tokens=250
         )
