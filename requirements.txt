@@ -4,3 +4,4 @@ flask
 groq
 python-dotenv
 pillow
+gunicorn==21.2.0
