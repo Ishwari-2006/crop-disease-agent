@@ -193,7 +193,7 @@ Provide a complete diagnosis report as an AI expert. Under 200 words.
         )
 
         response = groq_client.chat.completions.create(
-            model="llama-3.3-70b-versatile",
+            model="llama-3.1-8b-instant",
             messages=messages,
             max_tokens=400
         )
@@ -238,7 +238,7 @@ def chat():
         )
 
         response = groq_client.chat.completions.create(
-            model="qwen/qwen3.6-27b",
+            model="llama-3.1-8b-instant",
             messages=messages,
             max_tokens=250
         )
