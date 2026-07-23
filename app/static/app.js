@@ -133,7 +133,7 @@ function showResult(data, farming) {
                 </div>
             </div>
 
-            <div class="report-box">${data.report.replace(/\n/g, "<br>")}</div>
+            <div class="report-box">${marked.parse(data.report)}</div>
 
             ${showOrganic && organicHTML ? `
             <div class="treatment-section">
@@ -187,7 +187,7 @@ async function sendChat() {
         messages.innerHTML += `
             <div>
                 <div class="chat-label chat-label-agent">AI Expert</div>
-                <div class="chat-msg-agent">${(data.reply || data.error).replace(/\n/g, "<br>")}</div>
+                <div class="chat-msg-agent">${marked.parse(data.reply || data.error)}</div>
             </div>`;
         messages.scrollTop = messages.scrollHeight;
 
