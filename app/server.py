@@ -162,25 +162,26 @@ def analyze():
         else:
             conf_note = f"Model confidence: {confidence}% — high confidence."
 
-        if farming_type == "organic":
-            treatment_str = "Organic: " + " | ".join(organic)
-        elif farming_type == "chemical":
-            treatment_str = "Chemical: " + " | ".join(chemical)
-        else:
-            treatment_str = (
-                "Organic: " + " | ".join(organic) +
-                "\nChemical: " + " | ".join(chemical)
-            )
-
         user_msg = f"""
-Plant: {plant} | Disease: {disease} | {conf_note}
-Cause: {d_info.get('cause','Unknown')}
-Symptoms: {d_info.get('symptoms','Unknown')}
-Severity: {d_info.get('severity','Unknown')}
-{treatment_str}
-Prevention: {prevention}
-Provide a complete diagnosis report as an AI expert. Under 200 words.
-"""
+        Plant: {plant} | Disease: {disease} | {conf_note}
+        Cause: {d_info.get('cause','Unknown')}
+        Symptoms: {d_info.get('symptoms','Unknown')}
+        Severity: {d_info.get('severity','Unknown')}
+
+        Write a short diagnosis explanation (max 100 words) using Markdown formatting:
+        - Use a **bold header** like "**Diagnosis:**" or "**What to look for:**" before each section
+        - Use "-" bullet points for listing symptoms
+        - Keep paragraphs short
+
+        Cover only:
+        1. What the disease is and its cause
+        2. Visible symptoms to confirm
+        3. Why the severity level matters
+
+        STRICT RULE: Do not mention organic treatments, chemical treatments, sprays,
+        fungicides, copper, Chlorothalonil, Mancozeb, Myclobutanil, crop rotation,
+        mulching, or any prevention steps. These will be shown separately.
+        """
 
         # Init session
         if session_id not in sessions:
